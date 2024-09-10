@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>s的三种引入方式</title>
+    <style>
+        h1 {color: red;}
+
+    </style>
+</head>
+<body>
+    <h1>JS的三种引入方式</h1>
+    <p>第一种：行内式</p>
+    <input type="button" value="点击我" onclick="alert('hello world')">
+    <a href="javascript:alert('第一种方式引入')">点击我</a>
+
+    <h2>第二种：内嵌式 (内嵌html文档中)</h2>
+    <script>
+        console.log('第二种引入方式');
+    </script>
+
+    <div>第三种：外链式</div>
+     <script type="text/javascript" src="demo01.js"></script>
+</body>
+</html>
